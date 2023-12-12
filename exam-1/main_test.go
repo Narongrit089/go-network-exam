@@ -1,6 +1,8 @@
 package main
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestExampleFunction(t *testing.T) {
 	// TODO: Implement tests for the student's code

@@ -27,7 +27,7 @@ func TestMinus(t *testing.T) {
 
 func TestUserLogin(t *testing.T) {
 	expected := true
-	if got := UserLogin("admin", "password"); got != expected {
+	if got := UserLogin("Narongrit", "save12345"); got != expected {
 		t.Errorf("UserLogin(\"admin\", \"admin\") = %v, want %v", got, expected)
 	}
 }
